@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-primary: #6c5ce7;
+  --color-secondary: #00b894;
+  --color-accent: #fdcb6e;
+  --color-error: #e74c3c;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.toolbar-node:active {
+  cursor: grabbing;
+}
+
+canvas {
+  display: block;
+}
